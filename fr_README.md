@@ -39,3 +39,16 @@
 3. Téléchargez toutes les versions de ce Git ([Simu_Video](https://github.com/IsmaTIBU/GBP_Simu/releases/tag/Simu_Video) & [PositionDetection_Model](https://github.com/IsmaTIBU/GBP_Simu/releases/tag/PosiotionDetection_Model)) et chargez-les dans la racine du projet, comme nous l'avons fait avec le dossier 'data'  
 4. Exécutez 'video_mask.py' pour générer une vidéo de la ligne de production en lui appliquant un masque pour que le modèle puisse se concentrer sur les 2 positions principales et moins de données soient nécessaires pour l'entraîner, cela prendra du temps. Le résultat sera chargé dans Output/output_masked_video.mp4.  
 5. Exécutez 'Model_test.py'. Ici nous étiquettons la vidéo masquée avec des carrés qui changent de couleur selon la position de la carte, en d'autres termes, selon ce que le modèle détecte.
+6. <table>
+<tr>
+<td><img src="README_images/bp1_bp2.png" alt="Carte Carrée" width="400"/></td>
+<td><img src="README_images/gp1_bp2.png" alt="Carte Carrée" width="400"/></td>
+</tr>
+<tr>
+<td><img src="README_images/bp1_gp2.png" alt="Carte Carrée" width="400"/></td>
+<td><img src="README_images/gp1_gp2.png" alt="Carte Carrée" width="400"/></td>
+</tr>
+<tr>
+<td colspan="4" align="center"><em>Détection du modèle pour les différentes configurations et sa précision 'Confiance'</em></td>
+</tr>
+</table>
