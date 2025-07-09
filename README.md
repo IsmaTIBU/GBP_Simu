@@ -1,3 +1,6 @@
+[Click aqui para leer el documento en Español](es_README.md)  
+[Clickez ici pour lire le document traduit au français](fr_README.md)
+
 # GBP_Simu - Detection on a simulation of a board's good or bad positionning on the main production line
 
 ### Usage
