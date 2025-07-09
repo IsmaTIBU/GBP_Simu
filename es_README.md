@@ -40,7 +40,7 @@
 3. Descarga todas las versiones de este Git ([Simu_Video](https://github.com/IsmaTIBU/GBP_Simu/releases/tag/Simu_Video) & [PositionDetection_Model](https://github.com/IsmaTIBU/GBP_Simu/releases/tag/PosiotionDetection_Model)) y cárgalas en la raíz del proyecto, como hicimos con la carpeta 'data'  
 4. Ejecuta 'video_mask.py' para generar un video de la línea de producción aplicándole una máscara para que el modelo pueda enfocarse en las 2 posiciones principales y se requieran menos datos para entrenarlo, tomará algo de tiempo. El resultado se cargará en Output/output_masked_video.mp4.  
 5. Ejecuta 'Model_test.py'. Aquí etiquetamos el video enmascarado con cuadrados que cambian de color dependiendo de la posición de la placa, en otras palabras, dependiendo de lo que el modelo detecte.
-6. <table>
+<table>
 <tr>
 <td><img src="README_images/bp1_bp2.png" alt="Placa Cuadrada" width="400"/></td>
 <td><img src="README_images/gp1_bp2.png" alt="Placa Cuadrada" width="400"/></td>
