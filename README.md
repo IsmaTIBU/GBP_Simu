@@ -42,4 +42,16 @@
 3. Download all of the releases of this Git ([Simu_Video](https://github.com/IsmaTIBU/GBP_Simu/releases/tag/Simu_Video) & [PositionDetection_Model](https://github.com/IsmaTIBU/GBP_Simu/releases/tag/PosiotionDetection_Model)) and load them on the project's root, as we did with the folder 'data'  
 4. Execute 'video_mask.py' to generate a video of the production line applying it a mask so the model can focus on the 2 main positions and less data is required to train it, it will take some time. The result will be loaded in Output/output_masked_video.mp4.  
 5. Execute 'Model_test.py'. Here we label the masked video with squares that change color depending on the position of the board, in other words, depending on what the model detects.
-
+<table>
+<tr>
+<td><img src="README_images/bp1_bp2.png" alt="Squared Led" width="400"/></td>
+<td><img src="README_images/gp1_bp2.png" alt="Squared Led" width="400"/></td>
+</tr>
+<tr>
+<td><img src="README_images/bp1_gp2.png" alt="Squared Led" width="400"/></td>
+<td><img src="README_images/gp1_gp2.png" alt="Squared Led" width="400"/></td>
+</tr>
+<tr>
+<td colspan="4" align="center"><em>Detection of the model for the different configurations and its accuracy 'Confianza'</em></td>
+</tr>
+</table>
