@@ -12,8 +12,8 @@
 5. Execute 'Training.py'. It will train the model, ideally you should find val_loss and loss finish on a rather same value and accuracy and val_accuracy would have a rather high note (from 0-1).  
 <table>
 <tr>
-<td><img src="README_images/loss.png" width="300"/></td>
-<td><img src="README_images/val_accuracy.png" width="300"/></td>
+<td><img src="README_images/loss.png" width="400"/></td>
+<td><img src="README_images/val_accuracy.png" width="400"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Training and validation loss / epochs | Validation accuracy / epochs</em></td>
@@ -22,11 +22,13 @@
 6. Execute 'Model_test.py'. Here we label the masked video with squares that change color depending on the position of the board, in other words, depending on what the model detects.  
 <table>
 <tr>
-<td><img src="images/squaredLed.jpg" alt="Squared Led" width="300"/></td>
-<td><img src="images/circularLed.jpg" alt="Circular Led" width="300"/></td>
+<td><img src="README_images/bp1_bp2.png" alt="Squared Led" width="200"/></td>
+<td><img src="README_images/gp1_bp2.png" alt="Squared Led" width="200"/></td>
+<td><img src="README_images/bp1_gp2.png" alt="Squared Led" width="200"/></td>
+<td><img src="README_images/gp1_gp2.png" alt="Squared Led" width="200"/></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><em>Types of led to detect</em></td>
+<td colspan="2" align="center"><em>Detection of the model for the different configurations and its accuracy 'Confianza'</em></td>
 </tr>
 </table>
 #### If you wish to use this project for a personal simulation you should record a video, use it in 'videoToPhoto.py' as input, which will divide the video in all of its frames and save them in 'data', and then put the different positions in their respective folder. You will also have to change the masks configurations in 'video_mask.py' and the labeling in 'Model_test.py'.   
