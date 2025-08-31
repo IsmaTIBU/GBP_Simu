@@ -1,5 +1,14 @@
-[Click aqui para leer el documento en Español](es_README.md)  
-[Clickez ici pour lire le document traduit au français](fr_README.md)
+<div align="left">
+  <a href="fr_README.md">
+    <img src="https://img.shields.io/badge/lang-fr-blue">
+  </a>
+</div>
+
+<div align="left">
+  <a href="es_README.md">
+    <img src="https://img.shields.io/badge/lang-es-red">
+  </a>
+</div>
 
 # GBP_Simu - Detection on a simulation of a board's good or bad positionning on the main production line
 
